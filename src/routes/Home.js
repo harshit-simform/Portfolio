@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import {  Typewriter } from 'react-simple-typewriter'
+import Header from "../components/head/Header"
 
 //import hero from "../hero/hero.png"
 // import skill1 from "../hero/skill1.png"
@@ -11,6 +12,7 @@ import {  Typewriter } from 'react-simple-typewriter'
 const Home = () => {
   return (
     <>
+      <Header/>
       <section className="hero" id= 'home'>
         <div className='conatiner f_flex top'>
             <div className="left top">
