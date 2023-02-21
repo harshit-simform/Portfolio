@@ -2,12 +2,14 @@ import React from 'react'
 import Card from "../components/head/Resume/Card"
 import ResumeApi from "../components/head/Resume/ResumeApi"
 import "./Resume.css"
+import Header from "../components/head/Header"
 
 
 
 const Resume = () => {
   return (
     <>
+    <Header/>
       <section className="Resume" id='resume'>
         <div className="container">
             <div className="heading text-center">
